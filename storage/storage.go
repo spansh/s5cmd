@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/peak/s5cmd/storage/url"
-	"github.com/peak/s5cmd/strutil"
+	"github.com/spansh/s5cmd/storage/url"
+	"github.com/spansh/s5cmd/strutil"
 )
 
 var (

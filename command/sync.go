@@ -13,11 +13,11 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/urfave/cli/v2"
 
-	errorpkg "github.com/peak/s5cmd/error"
-	"github.com/peak/s5cmd/log/stat"
-	"github.com/peak/s5cmd/parallel"
-	"github.com/peak/s5cmd/storage"
-	"github.com/peak/s5cmd/storage/url"
+	errorpkg "github.com/spansh/s5cmd/error"
+	"github.com/spansh/s5cmd/log/stat"
+	"github.com/spansh/s5cmd/parallel"
+	"github.com/spansh/s5cmd/storage"
+	"github.com/spansh/s5cmd/storage/url"
 )
 
 var syncHelpTemplate = `Name:

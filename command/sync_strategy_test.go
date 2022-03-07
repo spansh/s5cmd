@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	errorpkg "github.com/peak/s5cmd/error"
-	"github.com/peak/s5cmd/storage"
+	errorpkg "github.com/spansh/s5cmd/error"
+	"github.com/spansh/s5cmd/storage"
 )
 
 func TestSizeAndModificationStrategy_ShouldSync(t *testing.T) {

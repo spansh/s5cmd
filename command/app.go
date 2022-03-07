@@ -7,10 +7,10 @@ import (
 	cmpinstall "github.com/posener/complete/cmd/install"
 	"github.com/urfave/cli/v2"
 
-	"github.com/peak/s5cmd/log"
-	"github.com/peak/s5cmd/log/stat"
-	"github.com/peak/s5cmd/parallel"
-	"github.com/peak/s5cmd/storage"
+	"github.com/spansh/s5cmd/log"
+	"github.com/spansh/s5cmd/log/stat"
+	"github.com/spansh/s5cmd/parallel"
+	"github.com/spansh/s5cmd/storage"
 )
 
 const (

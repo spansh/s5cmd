@@ -4,7 +4,7 @@ before:
 builds:
   -
     binary: s5cmd
-    ldflags: -s -w -X github.com/peak/s5cmd/version.Version={{.Tag}} -X github.com/peak/s5cmd/version.GitCommit={{ .ShortCommit }}
+    ldflags: -s -w -X github.com/spansh/s5cmd/version.Version={{.Tag}} -X github.com/spansh/s5cmd/version.GitCommit={{ .ShortCommit }}
     env:
       - CGO_ENABLED=0
     goos:
@@ -52,7 +52,7 @@ brews:
       owner: peak
       name: s5cmd
     folder: Formula
-    homepage:  https://github.com/peak/s5cmd
+    homepage:  https://github.com/spansh/s5cmd
     description: Parallel S3 and local filesystem execution tool
     test: |
       system "#{bin}/s5cmd version"
